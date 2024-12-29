@@ -24,3 +24,9 @@
  	1. 在樹莓派裡開啟資料夾，並執行test.py檔案。
 	2. 在terminal中，會顯示一個網址，點開來之後就可以看到一個簡易版的遙控頁面。(此程式碼在templates資料夾中的index.html)
 	3. 點擊頁面上相對應的指令(GO, BACK, STOP, TURN RIGHT, TURN LEFT)即可讓自走車移動。
+ ## 資料來源
+ 	1. Raspberry使用L298N操作兩個馬達: https://sites.google.com/view/zsgititit/home/%E7%A1%AC%E9%AB%94%E5%AF%A6%E4%BD%9C/raspberry-shu-mei-pai/raspberry-shi-yongl298n-cao-zuo-liang-ge-ma-da
+ 	2. WiFi遙控車教學: https://hackmd.io/@q4-u6PwwT3-1Z4jbOLzyGA/ryTC1S_9o
+  	3. Arduino使用L298N驅動兩個馬達: https://sites.google.com/view/zsgititit/home/%E7%A1%AC%E9%AB%94%E5%AF%A6%E4%BD%9C/arduino/arduino-shi-yongl298n-qu-dong-liang-ge-ma-da
+        4. Github上Readme的基本撰寫和格式寫法: https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+	5. Git版本控制: https://ithelp.ithome.com.tw/articles/10271811
