@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>1111物聯網與大數據作業</title>
+        <style>
+            .weight-status {
+                margin: 20px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .weight-detected {
+                background-color: #ffeb3b;
+                color: #000;
+            } 
+            .no-weight {
+                background-color: #4caf50;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>1111物聯網與大數據作業--WiFi遙控車</h1>
+            <div>
+                <a href='/go'>Go</a> . 
+                <a href='/back'>Back</a> . 
+                <a href='/stop'>Stop</a> . 
+                <a href='/right'>Turn Right</a> . 
+                <a href='/left'>Turn Left</a>
+            </div>
+            <hr>
+            {% if cmd %}
+            <h2>Your Command: {{ cmd }}</h2>
+            {% endif %}
+        </center>
+</body>
+</html>
